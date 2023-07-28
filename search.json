@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "2023-07-29-nbdev.html",
+    "href": "2023-07-29-nbdev.html",
+    "title": "Setting Up a Blog With NbDev",
+    "section": "",
+    "text": "nbdev works best out-of-the-box for the use case where you want to create a Python package out of auto-exporting Jupyter notebooks.\nFor regular blogging you have to experiment a bit to make that work. I’m still figuring that out.\nThe nbdev docs point to Quarto which appears to be something like Jekyll. I believe it would be good to use nbdev with Quatro in order to publish Jupyter notebook-based blog posts, but I haven’t tried that yet.\n\n\n\nIt’s hard to configure the package name to be different from the repository name. I tried this in settings.ini:\nlib_name = tilly\nAnd I tried various combinations of running the notebooks to export a new package, but the package directory generated was always til."
+  },
+  {
+    "objectID": "2023-07-29-nbdev.html#things-i-learned",
+    "href": "2023-07-29-nbdev.html#things-i-learned",
+    "title": "Setting Up a Blog With NbDev",
+    "section": "",
+    "text": "nbdev works best out-of-the-box for the use case where you want to create a Python package out of auto-exporting Jupyter notebooks.\nFor regular blogging you have to experiment a bit to make that work. I’m still figuring that out.\nThe nbdev docs point to Quarto which appears to be something like Jekyll. I believe it would be good to use nbdev with Quatro in order to publish Jupyter notebook-based blog posts, but I haven’t tried that yet.\n\n\n\nIt’s hard to configure the package name to be different from the repository name. I tried this in settings.ini:\nlib_name = tilly\nAnd I tried various combinations of running the notebooks to export a new package, but the package directory generated was always til."
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "The autoreload extension is already loaded. To reload it, use:\n  %reload_ext autoreload\n\n\n\nsource\n\nfoo\n\n foo ()\n\n\nsource\n\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'\n\n\n\nassert say_hello(\"Hamel\") == \"Hello Hamel!\"\n\n\nfrom fastcore.test import *\n\ntest_eq(say_hello(\"Hamel\"), \"Hello Hamel!\")\n\n\nfrom IPython.display import display,SVG\n\ndisplay(SVG('&lt;svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"&gt;&lt;circle cx=\"50\" cy=\"50\" r=\"40\"/&gt;&lt;/svg&gt;'))\n\n\n\n\n\nsource\n\n\nHelloSayer\n\n HelloSayer (to)\n\nSay hello to to using say_hello\n\nsource\n\n\nHelloSayer.say\n\n HelloSayer.say ()\n\nSay hello to to using say_hello"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "til",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "til",
+    "section": "Install",
+    "text": "Install\npip install tilly"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "til",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  }
+]
